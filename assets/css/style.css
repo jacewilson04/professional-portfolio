@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-size: 100%;
+}
+
+header {
+    background-color: #13293d;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#headerlinks {
+    color: aquamarine;
+    margin-left: auto;
+    text-align: center;
+}
+
+#featured {
+    text-align: center;
+}
+
+#aboutme {
+    display: block;
+    text-align: center;
+}
+
+p {
+    font-size: 125%;
+}
+
+#other {
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+/* I found the repeat function online and I'm not 100% on what it does but it does seem to be working */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+}
